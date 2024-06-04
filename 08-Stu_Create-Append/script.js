@@ -23,41 +23,26 @@ document.addEventListener("DOMContentLoaded", () => {
         logAggregatedData();
     });
 
+    function displayEmployees() {
+        employeeList.innerHTML = "";
 
-const body = document.body;
-const h1El = document.createElement('h1');
-const infoEl = document.createElement('div');
-const imgEl = document.createElement('img');
-const kittenEl = document.createElement('div');
-const nameEl = document.createElement('div');
-const favoriteEl = document.createElement('div');
-// Create ordered list element
-const listEl = document.createElement('ol');
-// Create ordered list items
-const li1 = document.createElement('li');
-const li2 = document.createElement('li');
-const li3 = document.createElement('li');
-const li4 = document.createElement('li');
+        employees.sort((a, b) => a.lastName.localeCompare(b.lastName));
 
-h1El.textContent = 'Welcome to my page';
-kittenEl.textContent = 'This is my kitten 🐱.';
-nameEl.textContent = 'His name is Jax.';
-favoriteEl.textContent = 'My favorite foods are:';
+        employees.forEach(employee => {
+            const employeeItem = document.createElement("div");
+            employeeItem.classList.add("employee-item");
+            employeeItem.innerHTML = `<strong>${employee.lastName}, ${employee.firstName}</strong>: $${employee.salary}`;
+            employeeList.appendChild(employeeItem);
+        });
+    }
 
-body.appendChild(h1El);
-body.appendChild(infoEl);
-infoEl.appendChild(imgEl);
-infoEl.appendChild(kittenEl);
-infoEl.appendChild(nameEl);
-body.appendChild(favoriteEl);
-// Append ordered list
-favoriteEl.appendChild(listEl);
+    function logAggregatedData() {
+        const totalEmployees = employees.length;
+        const totalSalary = employees.reduce((sum, employee) => sum + parseFloat(employee.salary), 0);
+        const averageSalary = (totalEmployees > 0) ? (totalSalary / totalEmployees).toFixed(2) : 0;
 
-h1El.setAttribute('style', 'margin:auto; width:50%; text-align:center;');
-infoEl.setAttribute('style', 'margin:auto; width:50%; text-align:center;');
-imgEl.setAttribute('src', 'http://placekitten.com/200/300');
-nameEl.setAttribute('style', 'font-size:25px; text-align:center;');
-kittenEl.setAttribute('style', 'font-size:25px; text-align:center;');
-favoriteEl.setAttribute('style', 'font-size:20px;');
-
-// TODO: Add ordered list items containing four favorite foods
+        console.log(`Total Employees: ${totalEmployees}`);
+        console.log(`Total Salary: $${totalSalary}`);
+        console.log(`Average Salary: $${averageSalary}`);
+    }
+});
