@@ -1,3 +1,29 @@
+document.addEventListener("DOMContentLoaded", () => {
+    const addEmployeeButton = document.getElementById("addEmployeeButton");
+    const employeeList = document.getElementById("employeeList");
+
+    const employees = [];
+
+    addEmployeeButton.addEventListener("click", () => {
+        let addMore = true;
+
+        while (addMore) {
+            const firstName = prompt("Enter the employee's first name:");
+            const lastName = prompt("Enter the employee's last name:");
+            const salary = prompt("Enter the employee's salary:");
+
+            if (firstName && lastName && salary) {
+                employees.push({ firstName, lastName, salary });
+            }
+
+            addMore = confirm("Do you want to add another employee?");
+        }
+
+        displayEmployees();
+        logAggregatedData();
+    });
+
+
 const body = document.body;
 const h1El = document.createElement('h1');
 const infoEl = document.createElement('div');
