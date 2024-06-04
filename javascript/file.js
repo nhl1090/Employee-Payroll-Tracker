@@ -1,3 +1,8 @@
+document.addEventListener("DOMContentLoaded", () => {
+    const addEmployeeButton = document.getElementById("addEmployeeButton");
+    const employeeList = document.getElementById("employeeList");
+
+    const employees = [];
 
 function displayPayrollSummary() {
     const totalHours = 40;
