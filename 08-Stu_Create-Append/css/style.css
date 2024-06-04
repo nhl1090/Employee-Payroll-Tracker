@@ -1,11 +1,9 @@
-/* Basic CSS Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body Styles */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f4f4f4;
@@ -13,7 +11,6 @@ body {
     padding: 20px;
 }
 
-/* Header Styles */
 header {
     background-color: #4CAF50;
     color: white;
@@ -23,12 +20,10 @@ header {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-/* Main Content Styles */
 main {
     padding: 20px;
 }
 
-/* Section Styles */
 section {
     background: white;
     padding: 20px;
@@ -37,7 +32,6 @@ section {
     margin-bottom: 20px;
 }
 
-/* Heading Styles */
 h1, h2 {
     color: #4CAF50;
     margin-bottom: 10px;
@@ -48,7 +42,6 @@ h2 {
     margin-bottom: 20px;
 }
 
-/* Button Styles */
 button {
     background-color: #4CAF50;
     color: white;
@@ -65,7 +58,6 @@ button:hover {
     background-color: #45a049;
 }
 
-/* Employee List Styles */
 #employeeList {
     margin-top: 20px;
 }
@@ -78,7 +70,6 @@ button:hover {
     margin-bottom: 10px;
 }
 
-/* Footer Styles */
 footer {
     background-color: #333;
     color: white;
