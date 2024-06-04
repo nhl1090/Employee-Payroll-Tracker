@@ -4,6 +4,25 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const employees = [];
 
+    addEmployeeButton.addEventListener("click", () => {
+        let addMore = true;
+
+        while (addMore) {
+            const firstName = prompt("Enter the employee's first name:");
+            const lastName = prompt("Enter the employee's last name:");
+            const salary = prompt("Enter the employee's salary:");
+
+            if (firstName && lastName && salary) {
+                employees.push({ firstName, lastName, salary });
+            }
+
+            addMore = confirm("Do you want to add another employee?");
+        }
+
+        displayEmployees();
+        logAggregatedData();
+    });
+
 function displayPayrollSummary() {
     const totalHours = 40;
     const hourlyRate = 20;
