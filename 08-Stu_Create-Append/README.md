@@ -1,38 +1,26 @@
-# 🏗️ Create an Ordered List Using JavaScript
+# < Module Challenge 03>
 
-Work with a partner to implement the following user story:
+## Description
 
-* As a blogger, I want to use JavaScript to create an ordered list of my favorite foods on my webpage.
+The purpose of this project was to modify starter code to create an application that enables a payroll manager to view and manage employee payroll data. This app will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It is now a clean and polished, responsive user interface that adapts to multiple screen sizes.
 
-## Acceptance Criteria
+## Installation
 
-* It's done when an ordered list containing four favorite foods is visible in the HTML below the text "My favorite foods are:"
+NA
 
-* It's done when the ordered list has a background color of `#333333` and padding of `20px`.
+## Usage
 
-* It's done when each list item has a font color of `white`, padding of `5px`, and `margin-left` of `35px`.
+Link to deployed website: https://nhl1090.github.io/Module-Challenge-1/
 
-* It's done when each list item has a different background color.
+![Deployed Application](./images/Screenshot.png)
 
-## Assets
+## Credits
 
-The following image demonstrates the web application's appearance and functionality:
+Starter code was from The University of Texas at Austin Coding Bootcamp May class:
 
-![The text "Welcome to my page," appears above a centered kitten photo, above the text "My favorite foods are:" and a list of four foods.](./images/01-screenshot.png)
+https://git.bootcampcontent.com/University-of-Texas-at-Austin/UTA-VIRT-FSF-PT-05-2024-U-LOLC
 
----
 
-## 💡 Hints
+## License
 
-After creating an element in JavaScript, what additional step must you take to attach the element to the HTML document?
-
-## 🏆 Bonus
-
-If you have completed this activity, work through the following challenge with your partner to further your knowledge:
-
-* What is the difference between `append()` and `appendChild()`?
-
-Use [Google](https://www.google.com) or another search engine to research this.
-
----
-© 2024 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+License is in the repository.
