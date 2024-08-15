@@ -1,13 +1,13 @@
-# < Module Challenge 03>
+# Employee Payroll Tracker
 
 ## Description
-The purpose of this project was to modify starter code to create an application that enables a payroll manager to view and manage employee payroll data. This app will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It is now a clean and polished, responsive user interface that adapts to multiple screen sizes.
+This application enables a payroll manager to view and manage employee payroll data. It will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript.
 
 ## Installation
 NA
 
 ## Usage
-https://nhl1090.github.io/Module-Challenge-1/
+https://nhl1090.github.io/Employee-Payroll-Tracker/
 
 ![Deployed Application](./assets/images/Screenshot.png)
 
