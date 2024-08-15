@@ -27,7 +27,7 @@ https://nhl1090.github.io/Employee-Payroll-Tracker/
 This project is licensed under the ![MIT license](https://opensource.org/license/MIT).
 
 
-## Credits
+## Contributing
 - Atlassian
     - (https://www.atlassian.com/git)
 - edX
