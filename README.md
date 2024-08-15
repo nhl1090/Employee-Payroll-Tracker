@@ -32,8 +32,6 @@ This project is licensed under the ![MIT license](https://opensource.org/license
     - (https://www.atlassian.com/git)
 - edX
     - (https://www.edx.org/)
-- Google
-    - (https://developer.chrome.com/docs/devtools/)
 - GitHub
     - (https://docs.github.com/en/get-started/start-your-journey/hello-world)
     - (https://coding-boot-camp.github.io/full-stack/)
@@ -42,6 +40,8 @@ This project is licensed under the ![MIT license](https://opensource.org/license
     - (https://coding-boot-camp.github.io/full-stack/html/html-cheatsheet)
 - GitLab
     - (https://docs.gitlab.com/ee/user/ssh.html#add-an-ssh-key-to-your-gitlab-account)
+- Google
+    - (https://developer.chrome.com/docs/devtools/)
 - MDN 
     - (https://developer.mozilla.org/en-US/)
     - (https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Command_line#basic_built-in_terminal_commands)
