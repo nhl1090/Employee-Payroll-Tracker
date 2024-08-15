@@ -3,13 +3,29 @@
 ## Description
 This application enables a payroll manager to view and manage employee payroll data. It will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript.
 
+
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
+
+
 ## Installation
 NA
+
 
 ## Usage
 https://nhl1090.github.io/Employee-Payroll-Tracker/
 
 ![Deployed Application](./assets/images/Screenshot.png)
+
+
+## License
+This project is licensed under the ![MIT license](https://opensource.org/license/MIT).
+
 
 ## Credits
 - Atlassian
@@ -38,6 +54,17 @@ https://nhl1090.github.io/Employee-Payroll-Tracker/
     - (https://developer.mozilla.org/en-US/docs/Web/CSS/display)
     - (https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model)
     - (https://developer.mozilla.org/en-US/docs/Web/CSS/position)
+    - (https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries)
+    - (https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Basic_concepts_of_flexbox)
+    - (https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design)
+    - (https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance)
+    - (https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes)
+    - (https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements)
+    - (https://developer.mozilla.org/en-US/docs/Web/CSS/transition)
+    - (https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Fundamentals)
+    - (https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
+    - (https://developer.mozilla.org/en-US/docs/Learn/CSS/Howto/Create_fancy_boxes)
+    - (https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Combinators)
     - (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script)
     - (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var)
     - (https://developer.mozilla.org/en-US/docs/Glossary/Primitive)
@@ -59,13 +86,21 @@ https://nhl1090.github.io/Employee-Payroll-Tracker/
     - (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random)
 - Mimo
     - (https://mimo.org)
+- Open Source Initiative
+    - (https://opensource.org/license/MIT)
 - Stackoverflow
     - (https://stackoverflow.com/)
 - UT Coding Bootcamp GitLab site
     - (https://git.bootcampcontent.com/University-of-Texas-at-Austin/UTA-VIRT-FSF-PT-05-2024-U-LOLC)
 - W3 Schools
     - (https://www.w3schools.com/)
+- Wikipedia
+    - (https://en.wikipedia.org/wiki/Website_wireframe)
 
 
-## License
-License is in the repository.
+## Tests
+NA
+
+
+## Questions
+For any questions, please reach out to me at [nhl1090](https://github.com/nhl1090). Thank you!
